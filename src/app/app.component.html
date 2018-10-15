@@ -1,5 +1,43 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="full-width-div mx-auto">
-	<app-content class="mx-auto px-3 py-3" style= "width: 500px;" >
-	</app-content>
+<div id="app" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column full-height-div">
+	<div class="app">
+
+		<div class="d-flex mb-5">
+			<h3 class="flex-grow-1 pt-2"><a routerLink="dashboard">{{ title }}</a></h3>
+
+			<ul class="nav nav-pills pill justify-content-end">
+
+			  <li class="nav-item">
+			    <a class="nav-link" routerLink="recovery">
+						<icon-component
+							class="d-flex flex-column justify-content-center"
+							label="Recovery"
+							iconName="heartbeat"
+						></icon-component>
+					</a>
+			  </li>
+
+			  <li class="nav-item">
+			    <a class="nav-link" routerLink="workout">
+						<icon-component
+							class="d-flex flex-column justify-content-center"
+							label="Workout"
+							iconName="dumbbell"
+						></icon-component>
+					</a>
+			  </li>
+
+			  <li class="nav-item">
+			    <a class="nav-link" routerLink="settings">
+						<icon-component
+						class="d-flex flex-column justify-content-center"
+						label="Settings"
+						iconName="sliders-h"
+						></icon-component>
+					</a>
+			  </li>
+			</ul>
+		</div>
+
+		<router-outlet></router-outlet>
+	</div>
 </div>
