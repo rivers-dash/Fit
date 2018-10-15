@@ -26,16 +26,28 @@
 }
 
 .pill a:hover {
-    background-color: #600000;
+    background-color: #dc3545;
 }
 
 .pill .active a,
 .pill .active a:hover {
-    background-color: #600000;
+    background-color: #dc3545;
 }
 
 // -- Disable link colouring ----------
 a {
   color:inherit;
   text-decoration: none;
+ }
+
+ // -- Footer placement ----------
+ footer {
+	 color: #d0d0d0;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 margin-bottom: 20px;
+	 text-align: center;
+	 justify-content: center;
  }
