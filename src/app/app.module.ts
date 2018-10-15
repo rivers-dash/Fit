@@ -1,14 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatIconModule} from '@angular/material';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
+import { ContentComponent } from './content/content.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContentComponent,
+    IconComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+		MatIconModule,
+		HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

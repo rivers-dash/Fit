@@ -1,0 +1,4 @@
+.pill .active a,
+.pill .active a:hover {
+    background-color: #9a1e1e;
+}
