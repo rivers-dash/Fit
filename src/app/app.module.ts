@@ -11,6 +11,7 @@ import { RecoveryComponent } from './recovery/recovery.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WorkoutComponent } from './workout/workout.component';
 import { SettingsComponent } from './settings/settings.component';
+import { BodyprofileComponent } from './bodyprofile/bodyprofile.component';
 
 
 const appRoutes: Routes = [
@@ -18,6 +19,7 @@ const appRoutes: Routes = [
 	{ path: 'recovery', component: RecoveryComponent},
 	{ path: 'workout', component: WorkoutComponent},
 	{ path: 'settings', component: SettingsComponent},
+	{ path: 'settings/bodyprofile', component: BodyprofileComponent},
 	{ path: '', component: DashboardComponent }
 ]
 
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     RecoveryComponent,
     DashboardComponent,
     WorkoutComponent,
-    SettingsComponent
+    SettingsComponent,
+    BodyprofileComponent
   ],
   imports: [
     BrowserModule,

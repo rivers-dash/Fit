@@ -19,3 +19,14 @@ margin-bottom: 30px;
 .bg-secondary:hover {
 	background-color: #333333 !important;
 }
+
+a {
+  color:inherit;
+  text-decoration: none;
+	cursor: default;
+ }
+
+ .isClicked {
+	width: 600px !important;
+	color: red !important;
+ }
