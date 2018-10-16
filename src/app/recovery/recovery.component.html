@@ -1,3 +1,11 @@
 <div class="bodycanvas mx-auto">
-	<img src="../assets/images/frontbody.png" alt="" class="responsive">
+	<img src="../assets/images/{{bodyImg}}.png" alt="" class="responsive">
+	<div class="flipBodyArrow">
+		<icon-component
+			class="d-flex flex-column justify-content-center"
+			iconName="rev"
+			(click)="onFlipClick()"
+		></icon-component>
+	</div>
+
 </div>

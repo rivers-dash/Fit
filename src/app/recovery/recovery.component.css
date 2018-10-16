@@ -5,5 +5,20 @@
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+		margin: auto;
+    width: 40%;
+}
+
+.flipBodyArrow {
+	margin-right: 5px;
+	padding: 0 0 5px 0;
+	max-width: 30px;
+}
+
+.flipBodyArrow:hover {
+    background-color: #dc3545;
+		border-radius: 10px;
+		/* visibility: hidden;
+	  opacity: 0;
+	  transition: visibility 0s 1s, opacity 1s linear; */
 }
